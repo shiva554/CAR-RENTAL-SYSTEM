@@ -1,0 +1,79 @@
+<web-app>
+<welcome-file-list>
+<welcome-file>index.jsp</welcome-file>
+</welcome-file-list>
+
+
+
+<servlet>
+    <servlet-name>AdminLogin</servlet-name>
+    <servlet-class>com.AdminLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AdminLogin</servlet-name>
+    <url-pattern>/AdminLogin</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Register</servlet-name>
+    <servlet-class>com.Register</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Register</servlet-name>
+    <url-pattern>/Register</url-pattern>
+  </servlet-mapping>
+<servlet>
+    <servlet-name>Customer</servlet-name>
+    <servlet-class>com.Customer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Customer</servlet-name>
+    <url-pattern>/Customer</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AddCar</servlet-name>
+    <servlet-class>com.AddCar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddCar</servlet-name>
+    <url-pattern>/AddCar</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateCar</servlet-name>
+    <servlet-class>com.UpdateCar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateCar</servlet-name>
+    <url-pattern>/UpdateCar</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>OwnerPayment</servlet-name>
+    <servlet-class>com.OwnerPayment</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OwnerPayment</servlet-name>
+    <url-pattern>/OwnerPayment</url-pattern>
+  </servlet-mapping>
+
+ <servlet>
+    <servlet-name>BookCar</servlet-name>
+    <servlet-class>com.BookCar</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>BookCar</servlet-name>
+    <url-pattern>/BookCar</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>CollectRent</servlet-name>
+    <servlet-class>com.CollectRent</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CollectRent</servlet-name>
+    <url-pattern>/CollectRent</url-pattern>
+  </servlet-mapping>
+
+ </web-app>

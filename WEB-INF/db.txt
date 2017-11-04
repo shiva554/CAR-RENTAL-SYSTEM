@@ -1,0 +1,11 @@
+drop database car_rental;
+create database car_rental;
+use car_rental;
+
+create table addcar(owner_name varchar(50),car_no varchar(50),
+car_manufacturer varchar(50),seating varchar(15),owner_contact_no varchar(12),owner_address varchar(50),rent_per_day double,car_rent date,last_paid date,paid_amount varchar(20),distrav varchar(20),carpic varchar(20));
+
+create table customer_register(firstname varchar(50),lastname varchar(50),username varchar(50),password varchar(50),email varchar(50),contact_no varchar(12),numofbookings varchar(15));
+
+create table book_car(username varchar(50),car_no varchar(50),booking_date date,
+kilometer_travels double,rent double,total_rent double,source varchar(50),destination varchar(50),persons varchar(50),discount double,final double);
